@@ -1,0 +1,18 @@
+-- public.time_cards definition
+
+-- Drop table
+
+-- DROP TABLE public.time_cards;
+
+CREATE TABLE public.time_cards (
+	id serial4 NOT NULL,
+	employee_name text NULL,
+	shift text NULL,
+	time_card_expected interval NULL,
+	time_card_done interval NULL,
+	delays_time interval NULL,
+	dez_14 numeric NULL,
+	acima_15 numeric NULL,
+	date_cards date NULL,
+	CONSTRAINT time_cards_pkey null
+);

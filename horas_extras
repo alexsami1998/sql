@@ -1,0 +1,15 @@
+-- public.horas_extras definition
+
+-- Drop table
+
+-- DROP TABLE public.horas_extras;
+
+CREATE TABLE public.horas_extras (
+	id serial4 NOT NULL,
+	employee_name text NULL,
+	date_register text NULL,
+	hora_extra interval NULL,
+	motivo text NULL,
+	date_cards date NULL,
+	CONSTRAINT horas_extras_pkey null
+);

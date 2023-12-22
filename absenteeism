@@ -1,0 +1,13 @@
+-- public.absenteeism definition
+
+-- Drop table
+
+-- DROP TABLE public.absenteeism;
+
+CREATE TABLE public.absenteeism (
+	id serial4 NOT NULL,
+	employee_name text NULL,
+	percent_abs text NULL,
+	date_cards date NULL,
+	CONSTRAINT absenteeism_pkey null
+);

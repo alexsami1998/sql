@@ -1,0 +1,14 @@
+-- public.ajusteponto_result definition
+
+-- Drop table
+
+-- DROP TABLE public.ajusteponto_result;
+
+CREATE TABLE public.ajusteponto_result (
+	id serial4 NOT NULL,
+	employee_name text NULL,
+	amais numeric NULL,
+	faltante numeric NULL,
+	date_cards date NULL,
+	CONSTRAINT ajusteponto_result_pkey null
+);

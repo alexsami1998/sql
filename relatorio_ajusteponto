@@ -1,0 +1,22 @@
+-- public.relatorio_ajusteponto definition
+
+-- Drop table
+
+-- DROP TABLE public.relatorio_ajusteponto;
+
+CREATE TABLE public.relatorio_ajusteponto (
+	id serial4 NOT NULL,
+	employee_name text NULL,
+	matricula varchar NULL,
+	equipe text NULL,
+	"data" varchar NULL,
+	pontos varchar NULL,
+	ajustado_por text NULL,
+	data_alteracao varchar NULL,
+	motivo text NULL,
+	solicitacao text NULL,
+	data_registro date NULL,
+	amais numeric NULL,
+	faltante numeric NULL,
+	CONSTRAINT relatorio_ajusteponto_pkey null
+);

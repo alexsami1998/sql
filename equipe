@@ -1,0 +1,12 @@
+-- public.equipe definition
+
+-- Drop table
+
+-- DROP TABLE public.equipe;
+
+CREATE TABLE public.equipe (
+	id serial4 NOT NULL,
+	employee_name text NULL,
+	equipe text NULL,
+	CONSTRAINT equipe_pkey null
+);

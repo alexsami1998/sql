@@ -1,0 +1,19 @@
+-- public.auditoria definition
+
+-- Drop table
+
+-- DROP TABLE public.auditoria;
+
+CREATE TABLE public.auditoria (
+	id serial4 NOT NULL,
+	employee_name text NULL,
+	date_register text NULL,
+	occurrence text NULL,
+	value text NULL,
+	worked_hours interval NULL,
+	employee_id varchar NULL,
+	date_cards date NULL,
+	interjornada numeric NULL,
+	intrajornada numeric NULL,
+	CONSTRAINT auditoria_pkey null
+);

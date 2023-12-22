@@ -1,0 +1,19 @@
+-- public.afasferias definition
+
+-- Drop table
+
+-- DROP TABLE public.afasferias;
+
+CREATE TABLE public.afasferias (
+	id serial4 NOT NULL,
+	employee_name text NULL,
+	team_name text NULL,
+	start_date text NULL,
+	end_date text NULL,
+	observation text NULL,
+	date_cards date NULL,
+	e_atestado text NULL,
+	falta numeric NULL,
+	atestado numeric NULL,
+	CONSTRAINT afasferias_pkey null
+);

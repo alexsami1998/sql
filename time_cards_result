@@ -1,0 +1,15 @@
+-- public.time_cards_result definition
+
+-- Drop table
+
+-- DROP TABLE public.time_cards_result;
+
+CREATE TABLE public.time_cards_result (
+	id serial4 NOT NULL,
+	employee_name text NULL,
+	delays_time_total text NULL,
+	dez_14 numeric NULL,
+	acima_15 numeric NULL,
+	date_cards date NULL,
+	CONSTRAINT time_cards_result_pkey null
+);

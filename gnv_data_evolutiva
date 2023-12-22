@@ -1,0 +1,26 @@
+-- public.gnv_data_evolutiva definition
+
+-- Drop table
+
+-- DROP TABLE public.gnv_data_evolutiva;
+
+CREATE TABLE public.gnv_data_evolutiva (
+	id serial4 NOT NULL,
+	"data" timestamp NULL,
+	eib19 text NULL,
+	efb19 text NULL,
+	eib20 text NULL,
+	efb20 text NULL,
+	sangriacofre text NULL,
+	sangriachefepista text NULL,
+	sangriafinanceira text NULL,
+	cartoes text NULL,
+	premia text NULL,
+	codigoregistrofuncionario varchar NULL,
+	eqb19 numeric NULL,
+	eqb20 numeric NULL,
+	vendaencerr text NULL,
+	vendacx text NULL,
+	diferenca text NULL,
+	CONSTRAINT gnv_data_evolutiva_pkey null
+);
